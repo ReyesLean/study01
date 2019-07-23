@@ -113,13 +113,12 @@ header {
   padding-bottom: 50px;
   color: #5f5d60;
   font-weight: normal;
-  text-align: center;
 }
 
 .lesson-wrapper {
   height: 580px;
-  width: 1170px;
   background-color: #f7f7f7;
+  text-align: center;
 }
 
 .heading h2 {
@@ -131,15 +130,20 @@ header {
   width: 25%;
 }
 
+.lesson-icons {
+  position: relative;
+}
+
 .lesson-icons p {
   color: white;
   position: absolute;
-  top: 44%;
+  top: 90px;
   width: 100%;
 }
 
 .text-contents {
-  margin-top: 15px;
-  color: #b3aeb5;
   width: 80%;
+  margin: 15px;
+  color: #b3aeb5;
+  display: inline-block;
 }
