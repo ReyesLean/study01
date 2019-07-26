@@ -72,3 +72,54 @@ body {
 .contents-item p {
   font-size: 24px;
 }
+
+.contact-form {
+  padding: 0 80px 100px 80px                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ;
+}
+
+.section-title {
+  font-size: 28px;
+  border-bottom: 2px solid #dee7ec;
+  padding-bottom: 15px; 
+  margin-bottom: 50px;
+}
+
+.contact-form p {
+  padding-bottom: 10px;
+}
+
+input, textarea {
+  margin-bottom: 30px;
+  border: 1px solid #dec7ec;
+  padding: 20px 20px;
+  width: 400px;
+}
+
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+  font-size: 18px;
+}
+
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px 40px;
+}
+
+.footer-logo {
+  font-size: 32px;
+  float: left;
+}
+
+.footer-menu {
+  font-size: 20px;
+  float: right;
+}
+
+.footer-menu li {
+  padding-bottom: 20px;
+}
+
+
