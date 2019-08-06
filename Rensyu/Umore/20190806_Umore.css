@@ -1,0 +1,28 @@
+
+ul{
+    list-style: none;
+}
+
+.header {
+    height: 140px;
+    width: 1440px;
+    background-color:#E0E0E0;
+}
+
+.header-logo{
+    float: left;
+    margin: 31px 251px 32px 192px;
+}
+
+.button li{
+    width:136px;
+    height: 25px;
+    float: right;
+    background-color:#333333;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 35px;
+    padding: 17px 11.43px 16px 10.57px;
+    margin: 57px 166px 57px 0px;
+}
