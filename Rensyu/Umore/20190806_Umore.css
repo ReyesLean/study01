@@ -1,63 +1,93 @@
+body{
+    margin:0;
+    box-sizing: border-box;
+}
 
-.header {
+header {
     height: 140px;
     background-color:#E0E0E0;
-    padding-right:166px;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .logo{
     float: left;
-    height:109px;
-    width: 103px;
-    margin: 31px 251px 32px 192px;
+    height:100px;
+    margin: 10px;
 }
 
-.button a{
-    width:136px;
-    height: 25px;
+.top-nav{
     float: right;
+    margin-top: 40px;
+}
+
+nav ul {    
+    display: flex;
+    flex-flow: row;
+    padding: 5px;
+    list-style-type: none;
+}
+
+.top-nav-button{
+    padding: 10px 30px;
     background-color:#333333;
-    color: white;
-    font-size: 18px;
     text-align: center;
     border-radius: 35px;
-    padding: 17px 11.43px 16px 10.57px;
-    margin: 57px 32px 57px 0px;
+    margin: 0px 20px;
 }
 
-.top {
+.top-nav-button a{
+    color: white;
+    font-size: 18px;
+}
+
+
+.top-image {
     background-image: url("../img/Rectangle.png");
     background-size: cover;
-    padding: 357px 919px 42px 179px;
+    width: 100vw;
+    height: 500px;
+    position: relative;
 }
 
-.top-message{
+.top-image .top-message{
+    position: absolute;
+    left: 5vw;
+    bottom: 30px;
     font-style: normal;
     font-weight: bold;
     font-size:34px;
     text-align: left;
 }
 
-.mid{
-    display: flex;
-}
-
-.contents{
-    justify-content: space-between;
-    margin: 486px 144px 0px 144px;
-    display: inline-block;
-    background-color:#C4C4C4;
-    padding: 14px 173px 431px 158px;
-    font-size: 34px;    
-}
-
-.detail {
+.service-detail{
+    margin-top: 100px;
     text-align: center;
 }
+
+.service-boxes{
+    display: flex;
+    flex-flow: row;
+}
+
+.service-box{
+    background-color:#C4C4C4;
+    font-size: 34px;    
+    width: 33.333%;
+    height: 300px;
+    margin: 10px;
+}
+
+
 
 .circle {
     background-color:#C4C4C4;
 	width: 225px;
 	height: 225px;
-	border-radius: 50%;
+    border-radius: 50%;
+    margin: 100px auto;
 }
+
